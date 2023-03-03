@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+.clear-nav{
+    margin-top: 76px;
+}
+
+.navbar-brand {
+  color: #d17609;
+}
+
+.img_slides {
+  width: 100%;
+  margin: 0 auto;
+  height: 350px;
+}
+
+.img_slides img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.home-sections {
+  height: 50vh;
+}
+
+footer {
+  height: 15vh;
+  background-color: #000000;
+  opacity: 0.7;
+}
+
+.copyright {
+  color: white;
+  opacity: 0.6;
+}
+//Hero
+.community-img-1{
+  background: url('./images/ys-sprite.png') no-repeat -106px -140px; 
+  width: 466px;
+  height: 448px;
+}
+
+//Contact
+
+.red{
+  color: red;
+}
+
+.contact-headers{
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.form-section{
+  width: 35%;
+  // height: max-content;
+  background-color: rgba(21, 23, 43, .8);
+  color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+}
+
+.form-element{
+  margin-bottom: 1rem;
+  padding: 4px 10px;
+  border-radius: 10px;
+  height: 50px;
+  background-color: #303245;
+  box-sizing: border-box;
+  color: #eee;
+  outline: 0;
+  border: 0;
+}
+
+.text-area{
+  height: 100px;
+}
+
+.submit-btn{
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.address{ 
+  padding-left: 10px;
+
+  p{
+    margin: 1px;
+  }
+}
